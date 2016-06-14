@@ -1,6 +1,19 @@
 $(function() {
-  $("p").click(function() {
-    $(".walrus-showing").toggle();
-    $(".walrus-hidden").toggle();
+  $(".clickable").click(function() {
+    $("#initially-showing").slideToggle();
+    $("#initially-hidden").slideToggle();
   });
 });
+
+$(function(){
+  $("#fade-in").fadein();
+
+});
+
+// $(document).ready(function() {
+//
+//     $(".clickable").click(function() {
+//       $("#initially-showing").slideToggle();
+//       $("#initially-hidden").slideToggle();
+//     });
+// });
