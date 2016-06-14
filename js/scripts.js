@@ -1,19 +1,15 @@
 $(function() {
+
+
+
   $(".clickable").click(function() {
     $("#initially-showing").slideToggle();
     $("#initially-hidden").slideToggle();
   });
+
+  $(".click").click(function() {
+    $("#fade-in").fadeToggle();
+
+  });
+
 });
-
-$(function(){
-  $("#fade-in").fadein();
-
-});
-
-// $(document).ready(function() {
-//
-//     $(".clickable").click(function() {
-//       $("#initially-showing").slideToggle();
-//       $("#initially-hidden").slideToggle();
-//     });
-// });

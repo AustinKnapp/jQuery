@@ -12,5 +12,10 @@
 }
 
 #fade-in {
+  display: none;
+}
 
+.click {
+  cursor: pointer;
+  color: #0088cc;  
 }
