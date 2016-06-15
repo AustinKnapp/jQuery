@@ -17,5 +17,33 @@
 
 .click {
   cursor: pointer;
-  color: #0088cc;  
+  color: #0088cc;
+}
+
+.green-background {
+  background-color: green;
+}
+
+.yellow-background {
+  background-color: yellow;
+}
+
+.red-background {
+  background-color: red;
+}
+
+.black-background {
+  background-color: black;
+}
+
+.white-background {
+  background-color: white;
+}
+
+.custom1 {
+  color: black;
+}
+
+.custom2 {
+  color: white;
 }
